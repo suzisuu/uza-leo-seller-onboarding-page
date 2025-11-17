@@ -19,6 +19,7 @@ body {
   background-color: var(--color-light-bg);
   color: var(--color-text);
   line-height: 1.6;
+  counter-reset: process-step-counter;
 }
 
 h1,
@@ -203,6 +204,7 @@ section {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
+  list-style: none;
 }
 
 .process-steps li {
@@ -210,21 +212,23 @@ section {
   background-color: var(--color-white);
   padding: 30px 20px;
   border-radius: 8px;
-  text-align: left;
   position: relative;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  counter-increment: process-step-counter;
+  text-align: center;
 }
 
 .process-steps li::before {
-  content: counter(list-item);
-  counter-increment: list-item;
+  content: counter(process-step-counter);
   position: absolute;
   top: -15px;
   left: 50%;
   transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 35px;
   height: 35px;
-  line-height: 35px;
   border-radius: 50%;
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -233,7 +237,6 @@ section {
   z-index: 10;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-
 .process-steps {
   list-style: none;
 }
