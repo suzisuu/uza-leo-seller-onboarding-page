@@ -52,7 +52,7 @@ To view and interact with the UzaLeo Landing Page:
 
 Clone the Repository:
 
-git clone [Your Repository URL Here]
+git clone [My Repository URL] (https://github.com/suzisuu/uza-leo-seller-onboarding-page)
 cd uzaleo-landing-page
 
 Open the File: Locate the index.html file in your project folder.
