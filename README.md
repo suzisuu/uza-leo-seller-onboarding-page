@@ -52,7 +52,7 @@ To view and interact with the UzaLeo Landing Page:
 
 Clone the Repository:
 
-git clone [My Repository URL] (https://github.com/suzisuu/uza-leo-seller-onboarding-page)
+git clone [My Repository live URL] (https://susan-awori.github.io/uza-leo-seller-onboarding-page/)
 cd uzaleo-landing-page
 
 Open the File: Locate the index.html file in your project folder.
@@ -64,3 +64,5 @@ Launch: Open index.html directly in your web browser (e.g., Chrome, Firefox).
 💡 Documentation & Credits
 
 Documentation Assistance: [Google Gemini] was used as a drafting tool to help structure and organize this README file based on project information. All content was manually edited and finalized to ensure accuracy and alignment with the project's idea.
+
+Design & Development: Susan Awori
